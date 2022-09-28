@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome icons script -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Adnan Resume Webpage</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-branding">Adnan Nukić</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="about-me.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#get-in-touch" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- ABOUT ME SECTION -->
+    <section>
+        <div class="div-flex-row div-flex-column">
+            <div class="top-margin-0 left-margin-5 right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <h2>GET TO KNOW ME</h2>
+                <h1>Professional output, creative code.</h1>
+                <p>
+                    My love affair with coding started when I finished my studies at FET; I studied in the field of "Electric power networks and systems"; 
+                    the path I was on until then had almost nothing to do with coding. 
+                    That love reaches its peak through the BILD IT program.
+                    I've found that coding makes me happier, more enthusiastic, more curious, and more enlightened.
+                </p>
+                <br>
+                <p>
+                    Through this process I realized that this is what I want to do for a living.                
+                    I will continue to learn and expand my knowledge and definitely at some point go for a master's degree in this field.
+                </p>
+                <button class="btn">Get in touch</button>
+            </div>
+            <div class="top-margin-0 right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <img class="profile-photo" src="images/about-photo.JPG" alt="phto-in-about-me-page">
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section id="quote">
+        <div class="div-flex-row div-flex-column">
+            <div class="left-margin-5 right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <img class="quote-photo" src="images/prenj.jpeg" alt="quote img">
+            </div>
+            <div class="right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <h1>“There is only one good, knowledge, and one evil, ignorance”</h1>
+                <h3>Socrates</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT ME SECTION -->
+    <section id="get-in-touch">
+        <div class="div-flex-row div-flex-column">
+            <div class="left-margin-5 right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <h1>Interested? Let's get in touch.</h1>
+            </div>
+            <div class="right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <form action="https://formsubmit.co/adnannukic3@gmail.com" method="POST">
+                    <h5>Name*</h5>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <h5>Email*</h5>
+                    <input type="hidden" name="_subject" value="New Email">
+                    <input type="email" id="email" placeholder="Your email address" required>
+                    <h5>Message*</h5>
+                    <textarea rows="4" id="message" placeholder="Enter your message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+    <section id="footer">
+        <div class="div-flex-row div-flex-column">
+            <div class="left-margin-5 right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <h4>YOU CAN ALSO FIND ME ON</h4>
+            </div>
+            <div class="right-margin-5 mob-tab-div div-for-2-flex-per-row">
+                <a href="https://www.linkedin.com/in/adnan-nuki%C4%87-1b4776202/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/adooo.nukic/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/adnannukic" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.sololearn.com/profile/26875916" target="_blank"><i class="fa fa-fan"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
